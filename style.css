@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Libre+Baskerville&family=PT+Serif&family=Roboto+Slab:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+.topleft{
+    width: 50%;
+    height: 155px;
+}
+.topright{
+    width: 50%;
+    height: 155px;
+}
+.section1{
+    height: 70vh;
+}
+.section1 h1{
+    font-size: 2rem;
+    color:orangered;
+}
+.section1 .deal{
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.section1 .buttons{
+    margin: 10px;
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    align-self: center;
+}
+.logo{
+    font-size: 2.0rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    font: bolder;
+}
+.dumbellimg{
+    width: 250px;
+    margin-top: 300px;
+}
+.bgimg{
+    width: 100%;
+}
+.topright .gymimg{
+   height: 500px;
+   width: 100%;
+}
+.section2{
+    padding: 50px;
+    background-image: url(bg.webp);
+
+}
+.section2 .my-2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    font: bolder;
+}
+.section2 h1{
+    font-size: 2.5rem;
+    font: bold;
+    color:orangered;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    padding: 8px 0px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(162, 75, 3);
+    text-align: center;
+    border-radius: 4px;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px;
+}
+.highlighted{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3{
+    padding: 50px;
+}
+.section3 .my-2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    font: bolder;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black; 
+    padding: 13px 0px;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+.section3 table tr{
+    border-bottom: 2px solid black;
+}
+.section3 h1{
+    font-size: 2.5rem;
+    color:orangered;
+}
+.section3{
+    padding-left: 63px;
+    padding-right: 63px;
+    height: 60vh;
+}
+footer{
+    padding: 25px;
+    text-align: center;
+    color: rgb(233, 18, 18);
+}
+
